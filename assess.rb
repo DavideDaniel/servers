@@ -18,10 +18,8 @@ candy.upcase.include?(fav_letter)}
 
 
 
-if favorites.include?(fav_letter)|favorite|
-  puts favorites.capitalize 
-end
- 
-if not favorites.include?(fav_letter)
+if favorites.length >= 1
+	puts favorites
+else
 	puts "No candy for you!"
 end
